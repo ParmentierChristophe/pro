@@ -1,0 +1,473 @@
+@font-face {
+    font-family: 'din_lightregular';
+    src: url('din_light_regular-webfont.eot');
+    src: url('din_light_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('din_light_regular-webfont.woff2') format('woff2'),
+         url('din_light_regular-webfont.woff') format('woff'),
+         url('din_light_regular-webfont.ttf') format('truetype'),
+         url('din_light_regular-webfont.svg#din_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+* 
+{
+	margin : 0; padding : 0; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+img { border : none; vertical-align: middle; }
+ul { list-style: none; }
+.clear { clear: both; }
+a { text-decoration: none; color : inherit; }
+a:hover { text-decoration: underline; }
+body {
+	font-size : 14px;
+	font-family: arial, sans-serif;
+	color : #333;
+	background : #fff;
+}
+
+body
+{
+	height: 1800px;
+	margin: 0 auto;
+	max-width: 960px;
+	font-family: 'din_lightregular';
+	font-size: 15px;
+
+}
+ul
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+	color: #000
+;
+}
+
+
+/* Header */
+header
+{
+	height: 175px;
+	border-bottom: solid 1px #ababab;
+}
+h1
+{
+	text-align: center;
+	display: inline-block;
+	width: 370px;
+	font-weight: normal;
+	margin-top: 50px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+p 
+{
+	float: left;
+	display: inline-block;
+	margin-left: 20px;
+	text-transform: uppercase;
+	margin-top: 67px;
+}
+header nav
+{
+	float: right;
+	display: inline-block;
+	text-align: right;
+}
+
+header nav ul li
+{
+	margin-top: 67px;
+	display: inline-block;
+}
+header nav ul li a
+{
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 20px;
+	clear: both;
+}
+
+/*test bloc mansonry*/
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif;
+}
+
+/* ---- grid ---- */
+
+.grid {
+	margin: 0 auto;
+  max-width: 960px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+margin-left: 10px;
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  border-color: hsla(0, 0%, 0%, 0.5);
+}
+
+
+.grid-item--height2 { height: 500px; }
+
+
+/*bloc et menu*/
+
+.contenu
+{
+}
+section nav
+{
+	text-align: center;
+	padding-top: 77px;
+	padding-bottom: 64px;
+}
+section nav ul
+{
+
+}
+section nav ul li
+{
+	padding-right: 40px;
+	display: inline-block;
+}
+
+
+.bloc1
+{
+	transition-property: background;
+  	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+	background: url(img/pom.jpg);
+}
+.bloc1:hover 
+{
+	background: url(img/pomover.jpg);
+
+}
+
+.bloc2
+{
+	transition-property: background;
+  	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+	background: url(img/rc.jpg);	
+}
+
+.bloc2:hover 
+{
+	background: url(img/rcover.jpg);
+}
+.bloc3
+{ 
+	transition-property: background;
+  	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+	background: url(img/artbook.jpg);	
+}
+.bloc3:hover 
+{
+	background: url(img/artbookover.jpg);
+}
+.bloc4
+{
+	transition-property: background;
+  	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+	background: url(img/smart.jpg);	
+}
+.bloc4:hover 
+{
+	background: url(img/smartover.jpg);
+}
+.bloc5
+{
+	transition-property: background;
+  	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+	background: url(img/skull.jpg);	
+}
+.bloc5:hover 
+{
+	background: url(img/skullover.jpg);
+}
+.bloc6
+{
+	transition-property: background;
+  	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+	background: url(img/petits.jpg);	
+}
+.bloc6:hover 
+{
+	background: url(img/petitsover.jpg);
+}
+.bloc7
+{
+	transition-property: background;
+  	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+	background: url(img/rma.jpg);	
+}
+.bloc7:hover 
+{
+	background: url(img/rmaover.jpg);
+}
+.bloc8
+{
+	transition-property: background;
+  	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+	background: url(img/funda.jpg);	
+
+}
+.bloc8:hover 
+{
+	background: url(img/fundaover.jpg);
+}
+.bloc9
+{
+	transition-property: background;
+  	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+	background: url(img/applirun.jpg);	
+}
+.bloc9:hover 
+{
+	background: url(img/applirunover.jpg);
+}
+
+
+/* Footer */
+
+footer 
+{
+	margin-top: 50px;
+	clear: both;
+	border-top: solid 1px #ababab;
+
+}
+.first
+{
+
+	margin-left: 307px;
+}
+footer a
+{
+	margin-right: 95px;
+	margin-top: 48px;
+	display: inline-block;
+}
+
+
+footer p
+{
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	font-style: italic;
+	margin-top: 61px;
+	margin-bottom: 50px;
+}
+
+
+
+/* ------------------------------------------------------------------ RESPONSIVE DESIGN ------------------------------------------------------------------ */
+
+/*  ------------------------------------------ Mobile device ------------------------------------------ */
+
+@media screen and (max-width: 479px) {
+
+body {
+	max-width: 100%;
+}
+header {
+	width:100%;	
+	border-bottom:0;
+	margin:0px auto 25px auto;
+	height:240px;
+	}
+header p {
+	display: none;
+}
+header nav   {
+	width:100%;
+    text-align: center;
+}
+h1 {
+	text-align: center;
+	width: 100%;
+}
+
+section nav {
+	display: none;
+
+}
+
+.grid {
+	margin-left: 5%;
+}
+
+
+
+footer {
+	width:100%;	
+	border-top:0;
+	margin:10px auto 25px auto;
+
+	}
+
+
+.first {
+	 margin-left: 30%;
+}
+
+footer a
+{
+	margin-right: 25px;
+
+}
+footer p
+{
+display: none;}
+
+}
+
+
+/*  ------------------------------------------ Tablette device ------------------------------------------ */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+
+body {
+	max-width: 100%;
+}
+header {
+	width:100%;	
+	border-bottom:0;
+	margin:0px auto 25px auto;
+	height:240px;
+	}
+header p {
+	display: none;
+}
+header nav   {
+	width:100%;
+    text-align: center;
+}
+h1 {
+	text-align: center;
+	width: 100%;
+}
+
+section nav {
+	display: none;
+
+}
+
+.grid {
+	margin-left: 5%;
+}
+
+
+
+footer {
+	width:100%;	
+	border-top:0;
+	margin:10px auto 25px auto;
+
+	}
+
+
+.first {
+	 margin-left: 37%;
+}
+
+footer a
+{
+	margin-right: 25px;
+
+}
+footer p
+{
+display: none;}
+
+
+}
+
+
+
+/*  ------------------------------------------ Laptop device ------------------------------------------ */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+body {
+	max-width: 100%;
+}
+header {
+	width:100%;	
+	border-bottom:0;
+	margin:0px auto 25px auto;
+	height:240px;
+	}
+header p {
+	display: none;
+}
+header nav   {
+	width:100%;
+    text-align: center;
+}
+h1 {
+	text-align: center;
+	width: 100%;
+}
+
+section nav {
+	display: none;
+
+}
+
+.grid {
+	margin-left: 5%;
+}
+
+
+
+footer {
+	width:100%;	
+	border-top:0;
+	margin:10px auto 25px auto;
+
+	}
+
+
+.first {
+	 margin-left: 37%;
+}
+
+footer a
+{
+	margin-right: 25px;
+
+}
+footer p
+{
+display: none;}
+
+	
+}
