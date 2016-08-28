@@ -8,9 +8,9 @@
          url('din_light_regular-webfont.svg#din_lightregular') format('svg');
     font-weight: normal;
     font-style: normal;
-} 
+}
 
-* 
+*
 {
 	margin : 0; padding : 0; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 img { border : none; vertical-align: middle; }
@@ -61,7 +61,7 @@ h1
 	font-size: 25px;
 	text-transform: uppercase;
 }
-header p 
+header p
 {
 	float: left;
 	display: inline-block;
@@ -155,7 +155,7 @@ section nav ul li
   	transition-timing-function: linear;
 	background: url(img/pom.jpg);
 }
-.bloc1:hover 
+.bloc1:hover
 {
 	background: url(img/pomover.jpg);
 
@@ -166,21 +166,21 @@ section nav ul li
 	transition-property: background;
   	transition-duration: 0.3s;
   	transition-timing-function: linear;
-	background: url(img/rc.jpg);	
+	background: url(img/rc.jpg);
 }
 
-.bloc2:hover 
+.bloc2:hover
 {
 	background: url(img/rcover.jpg);
 }
 .bloc3
-{ 
+{
 	transition-property: background;
   	transition-duration: 0.3s;
   	transition-timing-function: linear;
-	background: url(img/artbook.jpg);	
+	background: url(img/artbook.jpg);
 }
-.bloc3:hover 
+.bloc3:hover
 {
 	background: url(img/artbookover.jpg);
 }
@@ -189,9 +189,9 @@ section nav ul li
 	transition-property: background;
   	transition-duration: 0.3s;
   	transition-timing-function: linear;
-	background: url(img/smart.jpg);	
+	background: url(img/smart.jpg);
 }
-.bloc4:hover 
+.bloc4:hover
 {
 	background: url(img/smartover.jpg);
 }
@@ -200,9 +200,9 @@ section nav ul li
 	transition-property: background;
   	transition-duration: 0.3s;
   	transition-timing-function: linear;
-	background: url(img/skull.jpg);	
+	background: url(img/skull.jpg);
 }
-.bloc5:hover 
+.bloc5:hover
 {
 	background: url(img/skullover.jpg);
 }
@@ -211,9 +211,9 @@ section nav ul li
 	transition-property: background;
   	transition-duration: 0.3s;
   	transition-timing-function: linear;
-	background: url(img/petits.jpg);	
+	background: url(img/petits.jpg);
 }
-.bloc6:hover 
+.bloc6:hover
 {
 	background: url(img/petitsover.jpg);
 }
@@ -222,9 +222,9 @@ section nav ul li
 	transition-property: background;
   	transition-duration: 0.3s;
   	transition-timing-function: linear;
-	background: url(img/rma.jpg);	
+	background: url(img/rma.jpg);
 }
-.bloc7:hover 
+.bloc7:hover
 {
 	background: url(img/rmaover.jpg);
 }
@@ -233,10 +233,10 @@ section nav ul li
 	transition-property: background;
   	transition-duration: 0.3s;
   	transition-timing-function: linear;
-	background: url(img/funda.jpg);	
+	background: url(img/funda.jpg);
 
 }
-.bloc8:hover 
+.bloc8:hover
 {
 	background: url(img/fundaover.jpg);
 }
@@ -245,9 +245,9 @@ section nav ul li
 	transition-property: background;
   	transition-duration: 0.3s;
   	transition-timing-function: linear;
-	background: url(img/applirun.jpg);	
+	background: url(img/applirun.jpg);
 }
-.bloc9:hover 
+.bloc9:hover
 {
 	background: url(img/applirunover.jpg);
 }
@@ -255,7 +255,7 @@ section nav ul li
 
 /* Footer */
 
-footer 
+footer
 {
 	margin-top: 50px;
 	clear: both;
@@ -318,6 +318,13 @@ section img {
 
 
 
+.contact {
+  width: 100px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+
 
 
 
@@ -342,7 +349,7 @@ body {
 	max-width: 100%;
 }
 header {
-	width:100%;	
+	width:100%;
 	border-bottom:0;
 	margin:0px auto 25px auto;
 	height:240px;
@@ -371,7 +378,7 @@ section nav {
 
 
 footer {
-	width:100%;	
+	width:100%;
 	border-top:0;
 	margin:10px auto 25px auto;
 
@@ -403,7 +410,7 @@ body {
 	max-width: 100%;
 }
 header {
-	width:100%;	
+	width:100%;
 	border-bottom:0;
 	margin:0px auto 25px auto;
 	height:240px;
@@ -432,7 +439,7 @@ section nav {
 
 
 footer {
-	width:100%;	
+	width:100%;
 	border-top:0;
 	margin:10px auto 25px auto;
 
@@ -465,7 +472,7 @@ body {
 	max-width: 100%;
 }
 header {
-	width:100%;	
+	width:100%;
 	border-bottom:0;
 	margin:0px auto 25px auto;
 	height:240px;
@@ -494,7 +501,7 @@ section nav {
 
 
 footer {
-	width:100%;	
+	width:100%;
 	border-top:0;
 	margin:10px auto 25px auto;
 
@@ -514,5 +521,5 @@ footer p
 {
 display: none;}
 
-	
+
 }
